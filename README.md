@@ -6,3 +6,5 @@ Each topic is separated into individual directories and each problem has it's ow
 Extra > Sorting > p75\
 p75.java\
 p75.txt
+
+Tim Fan

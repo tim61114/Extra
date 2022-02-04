@@ -1,0 +1,15 @@
+
+912. Sort an Array
+
+Given an array of integers nums, sort the array in ascending order.
+
+Explanation: I used merge sort. (which is covered in class on Feb. 2)
+
+Explanation on merge sort: 
+
+Split the array from left to middle and from middle + 1 to right recurrsively.
+The recurrsion ends when the left index => right index (which implies the length of the separated subarray is 1).
+Then merge each subarray into a sorted array. The merge function compares two subarrays and put them back in sorted order.
+Which is to compare the two heads of the subarray and put the smaller number into the merged array until finished. 
+
+

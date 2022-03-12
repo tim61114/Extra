@@ -1,0 +1,10 @@
+This problem is to rotate the linked list to the right k times.
+
+So we will traverse through the list to get the length then mod k 
+(The reason we chose to find the length then mod instead of using double pointer
+is because k can be up to 2 * 10 ^ 9 but the length of the list is in range of
+[0, 500].
+
+We will then link the end of the linked list to the head, so this list is now a
+loop, then we will find the k-th element from the end so we can get the new head
+and the new tail. 

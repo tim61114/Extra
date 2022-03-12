@@ -1,0 +1,11 @@
+This problem is similar to the one we practiced during class, but the different
+part is to actually remove the node instead of reading it. 
+
+The fast node will travel for n steps starting from the head(which is index 1)
+
+After the fast node is finished, we then let the slow node travel from the dummy
+(which is index 0), and the fast node go to the end of the list, so we can have
+the slow node stop at the node before the one we are deleting.
+
+We use the dummy node at first to save the head when we need to actually remove
+the head.

@@ -1,0 +1,14 @@
+
+328. Odd Even Linked List
+
+Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.
+
+The first node is considered odd, and the second node is even, and so on.
+
+Explanation: We will use two dummys and two nodes to track the current node, and
+the loop will exit if the current odd node is null or the current even node is
+null. 
+
+Lastly we will find the actual end of the odd list, since the last node could
+end at null after the procedure. 
+(I think this can be done in a better way though.)

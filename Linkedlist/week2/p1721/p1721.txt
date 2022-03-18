@@ -1,0 +1,14 @@
+
+1721. Swapping Nodes in a Linked List
+
+You are given the head of a linked list, and an integer k.
+
+Return the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).
+
+Explanation: This is the intermediate problem of the last k node problem.
+We can use a fast and a slow node to find the the last kth node, then use
+another node to find the kth node, then swap the value and we are done.
+
+There are no edge cases in this one since the list will be at least length 1.
+
+I think dummy node is not actually needed in this problem but I took the easy way out.
